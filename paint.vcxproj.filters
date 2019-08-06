@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\drawObject">
+      <UniqueIdentifier>{7098c506-dfcc-4715-ab05-e3ae2284214a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\drawObject">
+      <UniqueIdentifier>{6ba594db-ff3f-4cb3-a9ea-f1e207805515}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="paint.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="paintDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="paintView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawObject.h">
+      <Filter>헤더 파일\drawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BeeLineDraw.h">
+      <Filter>헤더 파일\drawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipseDraw.h">
+      <Filter>헤더 파일\drawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PencilDraw.h">
+      <Filter>헤더 파일\drawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleDraw.h">
+      <Filter>헤더 파일\drawObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolValues.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="paint.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="paintDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="paintView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject.cpp">
+      <Filter>소스 파일\drawObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BeeLineDraw.cpp">
+      <Filter>소스 파일\drawObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipseDraw.cpp">
+      <Filter>소스 파일\drawObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PencilDraw.cpp">
+      <Filter>소스 파일\drawObject</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleDraw.cpp">
+      <Filter>소스 파일\drawObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolValues.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="paint.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\userimages.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\paintDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\paint.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\paint.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>
